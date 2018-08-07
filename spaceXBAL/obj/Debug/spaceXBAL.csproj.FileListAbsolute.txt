@@ -1,0 +1,9 @@
+c:\Users\Honey\documents\visual studio 2013\Projects\spaceX\spaceXBAL\obj\Debug\spaceXBAL.csprojResolveAssemblyReference.cache
+c:\Users\Honey\documents\visual studio 2013\Projects\spaceX\spaceXBAL\bin\Debug\spaceXBAL.dll
+c:\Users\Honey\documents\visual studio 2013\Projects\spaceX\spaceXBAL\bin\Debug\spaceXBAL.pdb
+c:\Users\Honey\documents\visual studio 2013\Projects\spaceX\spaceXBAL\bin\Debug\CDModels.dll
+c:\Users\Honey\documents\visual studio 2013\Projects\spaceX\spaceXBAL\bin\Debug\spaceXDAL.dll
+c:\Users\Honey\documents\visual studio 2013\Projects\spaceX\spaceXBAL\bin\Debug\CDModels.pdb
+c:\Users\Honey\documents\visual studio 2013\Projects\spaceX\spaceXBAL\bin\Debug\spaceXDAL.pdb
+c:\Users\Honey\documents\visual studio 2013\Projects\spaceX\spaceXBAL\obj\Debug\spaceXBAL.dll
+c:\Users\Honey\documents\visual studio 2013\Projects\spaceX\spaceXBAL\obj\Debug\spaceXBAL.pdb

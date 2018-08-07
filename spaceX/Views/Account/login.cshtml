@@ -1,0 +1,39 @@
+﻿@model CDModels.LoginBindingModel
+
+@{
+    Layout = "";
+    ViewBag.title = "Login | ClickDoor";
+}
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+{
+    @Html.AntiForgeryToken()
+
+    <div id="login-box">
+        <div class="left">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <h1>Login</h1>
+
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "input-text", placeholder = @Html.DisplayNameFor(m => Model.Email) } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+
+            @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = " input-text", placeholder = @Html.DisplayNameFor(m => Model.Password) } })
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+            <input type="submit" name="login_submit" value="Login" />
+            <div class="footer">
+                <span>
+                    New to ClickDoor? <a href=@Url.Content("~/account/register")>Sign up now</a>
+                </span>
+                <br />
+                <span><a href=@Url.Content("~/Account/forgotPassword")>Forgot Password?</a></span>
+            </div>
+        </div>
+
+        <div class="right">
+
+        </div>
+
+        <div class="or">CD</div>
+    </div>
+}
+
